@@ -1,0 +1,43 @@
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.jackpot-container {
+  text-align: center;
+}
+
+.slot-machine {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.slot {
+  width: 100px;
+  height: 100px;
+  border: 2px solid #000;
+  margin: 0 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  background-color: #6363ba;
+}
+
+#spin-btn {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #0baed7;
+}
+
+#result {
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 20px;
+}
